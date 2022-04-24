@@ -3,4 +3,48 @@
 }
 body {
     margin: 0%;
+    font-family: 'Ubuntu', sans-serif;
+}
+header, footer {
+    padding: 10px;
+    border-radius: 10px;
+}
+header {
+    background-color: red;
+
+}
+footer {
+    background-color: blue;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.hero--image {
+    width: 30%;
+    border-radius: 10px;
+    
+
+}
+
+.rolo {
+    display: flex;
+    gap: 10px;
+
+}
+
+.card {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 15px;
 }
