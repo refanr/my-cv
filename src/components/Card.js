@@ -1,9 +1,14 @@
 import React from "react";
 
-export default function Card() {
+
+export default function Card(props) {
+    const title = props.name ? props.name : props.company
     return (
         <div className="card">
-            <h2>Card</h2>
+            <p className="card--title">{title}</p>
+            <p>{props.years}</p>
+            <p>{props.description}</p>
+            
         </div>
     )
 }
